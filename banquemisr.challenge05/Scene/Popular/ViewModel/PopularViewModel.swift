@@ -1,0 +1,8 @@
+//
+//  PopularViewModel.swift
+//  banquemisr.challenge05
+//
+//  Created by Mohamed Osama on 05/05/2024.
+//
+
+import Foundation
