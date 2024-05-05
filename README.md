@@ -86,9 +86,10 @@ To use the Movie App Task, follow these steps:
 
 ### Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![Simulator Screenshot - iPhone 15 Pro - 2024-05-05 at 22 37 37]
+![Simulator Screenshot - iPhone 15 Pro - 2024-05-05 at 22 37 48](https://github.com/mohamed7420/banquemisr.challenge05/assets/53354158/32bd5fcf-1da7-45b9-9e45-eef3b82070e7)
+(https://github.com/mohamed7420/banquemisr.challenge05/assets/53354158/5072ef8c-b62e-4421-8f6d-8c7969b063aa)
+![Simulator Screenshot - iPhone 15 Pro - 2024-05-05 at 22 37 43](https://github.com/mohamed7420/banquemisr.challenge05/assets/53354158/4ddb63e8-44e0-4855-96af-2a44bad9b333)
 
 ### Video
 
