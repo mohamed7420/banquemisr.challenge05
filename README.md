@@ -86,7 +86,7 @@ To use the Movie App Task, follow these steps:
 
 ### Screenshots
 
-![Simulator Screenshot - iPhone 15 Pro - 2024-05-05 at 22 37 37]
+![Simulator Screenshot - iPhone 15 Pro - 2024-05-05 at 22 37 37](https://github.com/mohamed7420/banquemisr.challenge05/assets/53354158/f0879b26-d0de-4730-83af-9c8315f1b051)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-05-05 at 22 37 48](https://github.com/mohamed7420/banquemisr.challenge05/assets/53354158/32bd5fcf-1da7-45b9-9e45-eef3b82070e7)
 (https://github.com/mohamed7420/banquemisr.challenge05/assets/53354158/5072ef8c-b62e-4421-8f6d-8c7969b063aa)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-05-05 at 22 37 43](https://github.com/mohamed7420/banquemisr.challenge05/assets/53354158/4ddb63e8-44e0-4855-96af-2a44bad9b333)
@@ -102,8 +102,4 @@ To use the Movie App Task, follow these steps:
 
 ## Contributing
 
-[Explain how others can contribute to the project. Include guidelines for code contributions, bug reporting, feature requests, etc.]
-
 ## License
-
-[Specify the license under which the project is distributed. For example, MIT License, Apache License, etc.]
