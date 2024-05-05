@@ -11,6 +11,7 @@ import Combine
 class PopularViewController: UIViewController {
     @IBOutlet weak var containerStackView: UIStackView!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var messageLabel: UILabel!
     private lazy var shimmerView = MovieShimmerView.loadFromNib()
     
     private let viewModel = PopularViewModel()
@@ -36,6 +37,8 @@ class PopularViewController: UIViewController {
         Task {
             do {
                 try await viewModel.loadPopularMovies()
+            } catch let error as NetworkError {
+                messageLabel.text = error.message
             } catch {
                 print(error.localizedDescription)
             }
@@ -47,6 +50,7 @@ class PopularViewController: UIViewController {
             .receive(on: DispatchQueue.main)
             .sink {[weak self] movies in
                 guard let self else { return }
+                messageLabel.isHidden = !movies.isEmpty
                 snapshot(movies: movies)
             }.store(in: &cancellables)
         
