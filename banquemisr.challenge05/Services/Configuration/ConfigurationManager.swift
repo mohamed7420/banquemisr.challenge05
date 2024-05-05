@@ -25,10 +25,10 @@ struct ConfigurationManager {
     private init() { }
     
     func xconfigValue(key: Key) throws -> String {
-        guard let configURL = Bundle.main.url(forResource: "AppConfiguration", withExtension: "xcconfig") else {
+        guard let configURL = Bundle.main.url(forResource: "Config", withExtension: "xcconfig") else {
             throw ConfigurationError.invalidPath
         }
-        
+        print(configURL)
         let configString = try String(contentsOf: configURL)
         guard let apiKeyLine = configString.components(separatedBy: .newlines)
             .first(where: { $0.contains(key.rawValue) }) else {
