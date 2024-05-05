@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NowPlayingViewController" customModule="banquemisr_challenge05" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="P3x-rr-eaH" id="JPs-PS-vMF"/>
+                <outlet property="containerStackView" destination="rEU-Sf-sTJ" id="5tR-w8-3K1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
