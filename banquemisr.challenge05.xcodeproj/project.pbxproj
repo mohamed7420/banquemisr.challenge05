@@ -34,6 +34,7 @@
 		8B7317DB2BE7FF4200A27ACC /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7317DA2BE7FF4200A27ACC /* MovieDetailsViewModel.swift */; };
 		8B7317E32BE7FFFB00A27ACC /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7317E12BE7FFFB00A27ACC /* MovieDetailsViewController.swift */; };
 		8B7317E42BE7FFFB00A27ACC /* MovieDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B7317E22BE7FFFB00A27ACC /* MovieDetailsViewController.xib */; };
+		8BB39E2B2BE813D600C44847 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8BB39E2A2BE813D600C44847 /* Config.xcconfig */; };
 		8BB9F6C12BE801E400BDD847 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9F6C02BE801E400BDD847 /* ConfigurationManager.swift */; };
 		8BB9F6C42BE8026100BDD847 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9F6C32BE8026100BDD847 /* NetworkService.swift */; };
 		8BB9F6C62BE8028900BDD847 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9F6C52BE8028900BDD847 /* NetworkError.swift */; };
@@ -99,11 +100,11 @@
 		8B7317DA2BE7FF4200A27ACC /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
 		8B7317E12BE7FFFB00A27ACC /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		8B7317E22BE7FFFB00A27ACC /* MovieDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailsViewController.xib; sourceTree = "<group>"; };
+		8BB39E2A2BE813D600C44847 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		8BB9F6C02BE801E400BDD847 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
 		8BB9F6C32BE8026100BDD847 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		8BB9F6C52BE8028900BDD847 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		8BB9F6C82BE802C900BDD847 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		8BB9F6CB2BE8037500BDD847 /* AppConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfiguration.xcconfig; sourceTree = "<group>"; };
 		8BB9F6CE2BE8042000BDD847 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		8BB9F6D12BE8045300BDD847 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		8BB9F6D32BE8045E00BDD847 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -421,11 +422,11 @@
 		8BB9F6CA2BE802FB00BDD847 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8B7317812BE7F6EA00A27ACC /* LaunchScreen.storyboard */,
+				8BB39E2A2BE813D600C44847 /* Config.xcconfig */,
 				8B73177C2BE7F6E800A27ACC /* banquemisr_challenge05.xcdatamodeld */,
-				8BB9F6CB2BE8037500BDD847 /* AppConfiguration.xcconfig */,
 				8B73177F2BE7F6EA00A27ACC /* Assets.xcassets */,
 				8B7317842BE7F6EA00A27ACC /* Info.plist */,
-				8B7317812BE7F6EA00A27ACC /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -606,6 +607,7 @@
 				8B7317C22BE7FC3000A27ACC /* NowPlayingViewController.xib in Resources */,
 				8B7317BD2BE7FB9A00A27ACC /* MovieCVCell.xib in Resources */,
 				8B7317802BE7F6EA00A27ACC /* Assets.xcassets in Resources */,
+				8BB39E2B2BE813D600C44847 /* Config.xcconfig in Resources */,
 				8B7317E42BE7FFFB00A27ACC /* MovieDetailsViewController.xib in Resources */,
 				8B7317CE2BE7FDA600A27ACC /* PopularViewController.xib in Resources */,
 				8B7317B62BE7FAED00A27ACC /* MovieShimmerView.xib in Resources */,
@@ -840,7 +842,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H46ZLUF9FB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = banquemisr.challenge05/Info.plist;
+				INFOPLIST_FILE = banquemisr.challenge05/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -870,7 +872,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H46ZLUF9FB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = banquemisr.challenge05/Info.plist;
+				INFOPLIST_FILE = banquemisr.challenge05/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

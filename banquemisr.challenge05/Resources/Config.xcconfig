@@ -1,5 +1,5 @@
 //
-//  AppConfiguration.xcconfig
+//  Config.xcconfig
 //  banquemisr.challenge05
 //
 //  Created by Mohamed Osama on 05/05/2024.
@@ -7,7 +7,6 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
-
 APIKey = "8011c1f3da6039787230d46516b0f82c"
 accessToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4MDExYzFmM2RhNjAzOTc4NzIzMGQ0NjUxNmIwZjgyYyIsInN1YiI6IjY2MzYwOTc5NDcwZWFkMDEyYTEyMzhiYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5lmqV_wXgA5fculNjK4SvSNHNLqgadxK-vckgQt_jaA"
 imageURL = "https://image.tmdb.org/t/p/w500/"
