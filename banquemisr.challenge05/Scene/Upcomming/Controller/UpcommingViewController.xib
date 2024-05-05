@@ -10,6 +10,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpcommingViewController" customModule="banquemisr_challenge05" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="LIc-l2-W51" id="c5h-fT-VvU"/>
+                <outlet property="containerStackView" destination="CNg-SI-gQx" id="DeU-gs-EfN"/>
+                <outlet property="messageLabel" destination="hCF-bd-Uea" id="MsK-mY-BBN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
